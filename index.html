@@ -13,6 +13,16 @@
   <page class="page">
     <header class="header section-width">
       <div class="logo"></div>
+      <div class="header__about">
+        <ul class="header__about-list">
+          <li class="header__about-item">
+            <a class="header__about-link" href="#"> О нас</a>
+          </li>
+          <li class="header__about-item">
+            <a class="header__about-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main class="main">
@@ -65,16 +75,6 @@
     </main>
 
     <footer class="footer section-width">
-      <div class="footer__about">
-        <ul class="footer__about-list">
-          <li class="footer__about-item">
-            <a class="footer__about-link" href="#"> О нас</a>
-          </li>
-          <li class="footer__about-item">
-            <a class="footer__about-link" href="#">Контакты</a>
-          </li>
-        </ul>
-      </div>
       <div class="footer__column">
         <h4 class=footer__column-heading>Соцсети</h4>
         <ul class="footer__column-links">
@@ -90,6 +90,16 @@
         </ul>
       </div>
     </footer>
+    <div class="popup">
+      <button class="popup__escape" type="button"><img class="popup__icon" src="./images/close_icon.svg"
+          alt='Иконка крестик.'></button>
+      <div class="popup__container">
+        <div class="popup__video">
+          <iframe class="popup__video-iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./scripts/slick.min.js"></script>
     <script src="./scripts/script.js"></script>
